@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #365314;
+  --seconday-color: #3f6212;
+}
+
+body {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 80%;
+  height: 10vh;
+  margin: 1rem;
+  padding: 1rem;
+  float: inline-start;
+}
+
+#output {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 10vh;
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.button {
+  background-color: white;
+  border-color: var(--primary-color);
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+}
+
+.nav-heading {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-centre {
+  max-width: 600px;
+  margin: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
