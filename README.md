@@ -1,6 +1,6 @@
 # Grootish 
 This is the same app as Minionese. I made this app as an assignment for mark7.
-##*Tech stack used:*
+## *Tech stack used:*
 1. HTML5
 2. CSS3
 3. Javascript
